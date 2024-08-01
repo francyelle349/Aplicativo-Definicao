@@ -3,6 +3,8 @@ import 'package:quickdefinitionapp1/auth/domain/entities/textResponse.dart';
 import 'package:quickdefinitionapp1/auth/domain/repositories/ai_api_repository.dart';
 import 'package:quickdefinitionapp1/core/secrets/app_secrets.dart';
 
+// classe na parte de data responsável pela implementação lógica da API
+
 class AiApiRepositoryImpl implements AiApiRepository{
   @override
   Future<AiResponse> fetchResponse(String inputText)  async
