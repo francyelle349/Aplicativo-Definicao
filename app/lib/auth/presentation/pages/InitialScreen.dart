@@ -1,7 +1,6 @@
+import 'package:app/auth/presentation/pages/QuickDefinition.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
-
-import 'package:quickdefinitionapp1/auth/presentation/pages/QuickDefinition.dart';
 
 
 

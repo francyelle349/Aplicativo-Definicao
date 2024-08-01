@@ -1,9 +1,9 @@
+import 'package:app/auth/data/repository/ai_api_repository_imp.dart';
+import 'package:app/auth/domain/usecases/fetch_ai_response.dart';
+import 'package:app/auth/presentation/widgets/auth_field.dart';
+import 'package:app/core/theme/app_pallete.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:quickdefinitionapp1/auth/data/repository/ai_api_repository_imp.dart';
-import 'package:quickdefinitionapp1/auth/domain/usecases/fetch_ai_response.dart';
-import 'package:quickdefinitionapp1/auth/presentation/widgets/auth_field.dart';
-import 'package:quickdefinitionapp1/core/theme/app_pallete.dart';
 
 class quickDefinitionApp extends StatefulWidget {
   const quickDefinitionApp({super.key});

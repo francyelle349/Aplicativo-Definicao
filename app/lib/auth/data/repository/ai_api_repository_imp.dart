@@ -1,9 +1,11 @@
-import 'package:google_generative_ai/google_generative_ai.dart';
-import 'package:quickdefinitionapp1/auth/domain/entities/textResponse.dart';
-import 'package:quickdefinitionapp1/auth/domain/repositories/ai_api_repository.dart';
-import 'package:quickdefinitionapp1/core/secrets/app_secrets.dart';
+
 
 // classe na parte de data responsável pela implementação lógica da API
+
+import 'package:app/auth/domain/entities/textResponse.dart';
+import 'package:app/auth/domain/repositories/ai_api_repository.dart';
+import 'package:app/core/secrets/app_secrets.dart';
+import 'package:google_generative_ai/google_generative_ai.dart';
 
 class AiApiRepositoryImpl implements AiApiRepository{
   @override

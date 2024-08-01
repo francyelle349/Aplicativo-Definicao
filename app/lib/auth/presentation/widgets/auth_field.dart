@@ -1,5 +1,6 @@
+import 'package:app/core/theme/app_pallete.dart';
 import 'package:flutter/material.dart';
-import 'package:quickdefinitionapp1/core/theme/app_pallete.dart';
+
 
 class authField extends StatelessWidget {
   final String hintText;
